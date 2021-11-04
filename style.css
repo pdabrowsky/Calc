@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 420px;
+    background-color: #f2c094;
+}
+
+.header {
+    margin: 30px;
+    color: #592418;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.content {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.rowElement {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+
+.amoutElement {
+    line-height: 20px;
+    width: 110px;
+    background-color: #f2edd0;
+    box-shadow: 1px 1px 4px 0px rgba(89, 36, 24, 1);
+    border: 2px solid black;
+}
+.amoutElement {
+    padding-left: 2px;
+}
+
+.minusButton,
+.plusButton,
+.clearButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 4px 0px rgba(89, 36, 24, 1);
+}
+.minusButton {
+    width: 30px;
+    background-color: #bf7f5a;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.plusButton {
+    width: 30px;
+    background-color: #8c4e37;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.clearButton {
+    width: 40px;
+    background-color: #592418;
+    color: #f2edd0;
+    border-radius: 10%;
+    margin-left: 15px;
+}
