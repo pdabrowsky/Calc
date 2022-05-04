@@ -1,3 +1,3 @@
 ## Kalkulator
 
-Projekt wprowadzający do reacta, rozwiązujący problem polegający na sumowaniu banknotów / rolek bilonu.
+Projekt rozwiązujący problem sumowania dużej ilości banknotów / rolek bilonu.
